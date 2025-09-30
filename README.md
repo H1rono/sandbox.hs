@@ -1,0 +1,2 @@
+# sandbox.hs
+Haskell sandbox
