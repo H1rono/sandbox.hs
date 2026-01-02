@@ -38,9 +38,9 @@ library:
   source-dirs: src
 
 executables:
-  use-random-exe:
+  random_string:
     main: Main.hs
-    source-dirs: app
+    source-dirs: app/random_string
     ghc-options:
       - -threaded
       - -rtsopts
