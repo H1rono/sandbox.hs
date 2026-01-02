@@ -1,0 +1,10 @@
+cradle:
+  multi:
+    - path: "./helloworld"
+      config:
+        cradle:
+          cabal:
+    - path: "./use-random"
+      config:
+        cradle:
+          cabal:
