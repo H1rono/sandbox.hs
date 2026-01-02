@@ -47,6 +47,15 @@ executables:
       - -with-rtsopts=-N
     dependencies:
       - use-random
+  hidden_number:
+    main: Main.hs
+    source-dirs: app/hidden_number
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+    dependencies:
+      - use-random
 
 tests:
   use-random-test:
